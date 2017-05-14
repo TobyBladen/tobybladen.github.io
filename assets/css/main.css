@@ -1,0 +1,232 @@
+body {
+  font-size: 0;
+  background: white; }
+
+.container-fluid {
+  padding: 0px; }
+
+.row {
+  margin: 0px; }
+
+a {
+  color: #5c368c; }
+  a:hover {
+    color: #2e9dc9;
+    text-decoration: none; }
+  a:focus {
+    color: #2e9dc9;
+    text-decoration: none; }
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px; }
+
+td {
+  font-size: 18px; }
+
+blockquote {
+  border: none;
+  margin: 0px;
+  padding: 0px; }
+
+.kr-text {
+  word-break: keep-all; }
+
+h2 {
+  margin: 52px 0px 28px 0px;
+  font-weight: 700;
+  color: #062659; }
+
+h3 {
+  color: #062659; }
+
+h4 {
+  font-size: 22px;
+  margin-left: 20px;
+  opacity: 0.7; }
+
+.embed-responsive {
+  margin: 10px 0px 10px 0px; }
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none; }
+
+.fade1 {
+  animation-name: fade1;
+  animation-duration: 2s; }
+
+@keyframes fade1 {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+.fade2 {
+  animation-name: fade2;
+  animation-duration: 3s; }
+
+@keyframes fade2 {
+  0% {
+    opacity: 0; }
+  20% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+header {
+  height: 180px; }
+
+#en-img {
+  background: url(../img/london.jpg) center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#jp-img {
+  background: url(../img/kobe.jpg) center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#kr-img {
+  background: url(../img/seoul.jpg) center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+@media only screen and (min-width: 480px) {
+  header {
+    height: 220px; } }
+a.lang {
+  background: #5c368c;
+  color: white; }
+
+.btn-group {
+  float: right;
+  margin: 20px 20px 0px 0px; }
+
+.btn {
+  border: 1px solid #331e4f; }
+
+.btn:hover {
+  background: #331e4f;
+  color: white; }
+
+.btn:focus {
+  background: #331e4f;
+  color: white; }
+
+#main-title {
+  background: #062659;
+  background: linear-gradient(black, #062659); }
+
+#face {
+  height: 210px;
+  width: 210px;
+  margin: auto;
+  padding: 7px; }
+
+h1 {
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 0.1em; }
+
+#multi {
+  color: white;
+  font-size: 22px;
+  padding: 7px; }
+
+#jp-dot {
+  display: none; }
+
+@media only screen and (min-width: 480px) {
+  #jp-surname {
+    display: inline; }
+
+  #jp-dot {
+    display: inline; } }
+#main-nav a {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase; }
+
+.nvb {
+  text-align: center;
+  background: #5c368c;
+  padding: 10px; }
+  .nvb:hover {
+    background-color: #331e4f; }
+  .nvb:focus {
+    background-color: #331e4f; }
+
+.nvb-gap {
+  border-bottom: 2px solid #331e4f; }
+
+@media only screen and (min-width: 768px) {
+  .nvb-gap {
+    border-bottom: none;
+    border-right: 2px solid #331e4f; } }
+.blurb {
+  font-size: 18px; }
+
+.category {
+  color: #062659;
+  font-weight: 500; }
+
+.quot {
+  font-size: 32px;
+  font-weight: 500;
+  color: #062659; }
+
+.quot2 {
+  text-align: right; }
+
+div.well {
+  background: #d8dbff;
+  background: linear-gradient(to top right, #d8dbff, white);
+  border: none;
+  margin: 15px 0px 0px 0px;
+  font-weight: 500; }
+
+.project-blurb {
+  margin-bottom: 60px; }
+
+#email {
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-size: 24px;
+  margin: 30px 0px 30px 0px; }
+
+.social {
+  height: 66px;
+  width: 78px;
+  display: block;
+  margin: 0 auto; }
+
+#twitter {
+  width: 66px; }
+
+footer {
+  background: #062659;
+  background: linear-gradient(#062659, black);
+  padding: 30px;
+  margin-top: 30px; }
+  footer a {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase; }
+    footer a:hover {
+      color: #2e9dc9; }
+    footer a:focus {
+      color: #2e9dc9; }
+
+.bnvb {
+  margin: 20px 0px 10px 0px; }
+
+#copyright {
+  font-size: 10px;
+  color: white;
+  float: right; }

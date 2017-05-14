@@ -1,0 +1,40 @@
+header
+  height: 180px
+
+#en-img
+  background: url(../img/london.jpg) center center
+  background-size: cover
+  background-repeat: no-repeat
+
+#jp-img
+  background: url(../img/kobe.jpg) center center
+  background-size: cover
+  background-repeat: no-repeat
+
+#kr-img
+  background: url(../img/seoul.jpg) center center
+  background-size: cover
+  background-repeat: no-repeat
+
+@media only screen and (min-width : 480px)
+  header
+    height: 220px
+
+a.lang
+  background: $nav-color
+  color: white
+
+.btn-group
+  float: right
+  margin: 20px 20px 0px 0px
+
+.btn
+  border: 1px solid $button-hover-color
+
+.btn:hover
+  background: $button-hover-color
+  color: white
+
+.btn:focus
+  background: $button-hover-color
+  color: white
