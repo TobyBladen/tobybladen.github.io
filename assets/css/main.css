@@ -9,7 +9,8 @@ body {
   margin: 0px; }
 
 a {
-  color: #5c368c; }
+  color: #5c368c;
+  font-weight: bold; }
   a:hover {
     color: #2e9dc9;
     text-decoration: none; }
@@ -20,7 +21,7 @@ a {
 p {
   margin: 0;
   padding: 0;
-  font-size: 16px; }
+  font-size: 14px; }
 
 td {
   font-size: 18px; }
@@ -30,13 +31,11 @@ blockquote {
   margin: 0px;
   padding: 0px; }
 
-.kr-text {
-  word-break: keep-all; }
-
 h2 {
   margin: 52px 0px 28px 0px;
   font-weight: 700;
-  color: #062659; }
+  color: #062659;
+  text-transform: uppercase; }
 
 h3 {
   color: #062659; }
@@ -74,14 +73,6 @@ ul {
     opacity: 0; }
   100% {
     opacity: 1; } }
-header {
-  height: 180px; }
-
-#en-img {
-  background: url(../img/uk.jpg) center center;
-  background-size: cover;
-  background-repeat: no-repeat; }
-
 #jp-img {
   background: url(../img/japan.jpg) center center;
   background-size: cover;
@@ -89,6 +80,26 @@ header {
 
 #kr-img {
   background: url(../img/korea.jpg) center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#jp-dot {
+  display: none; }
+
+@media only screen and (min-width: 480px) {
+  #jp-surname {
+    display: inline; }
+
+  #jp-dot {
+    display: inline; } }
+.kr-text {
+  word-break: keep-all; }
+
+header {
+  height: 180px; }
+
+#en-img {
+  background: url(../img/bristol.jpg) center center;
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -125,6 +136,7 @@ a.lang {
   padding: 7px; }
 
 h1 {
+  text-transform: uppercase;
   color: white;
   margin: 0px;
   padding: 0px;
@@ -137,15 +149,6 @@ h1 {
   font-size: 22px;
   padding: 7px; }
 
-#jp-dot {
-  display: none; }
-
-@media only screen and (min-width: 480px) {
-  #jp-surname {
-    display: inline; }
-
-  #jp-dot {
-    display: inline; } }
 #main-nav a {
   color: white;
   font-size: 16px;
@@ -187,8 +190,29 @@ div.well {
   background: #d8dbff;
   background: linear-gradient(to top right, #d8dbff, white);
   border: none;
-  margin: 15px 0px 0px 0px;
-  font-weight: 500; }
+  margin: 15px 0px 0px 0px; }
+
+ul.skill-list li {
+  font-size: 16px;
+  background: linear-gradient(to top right, #d8dbff, white);
+  background-color: #d8dbff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  font-weight: bold; }
+
+#see-more-button {
+  font-weight: normal;
+  display: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 40px;
+  background: #5c368c;
+  color: white; }
+  #see-more-button:hover {
+    background-color: #331e4f; }
+  #see-more-button:focus {
+    background-color: #331e4f; }
 
 .project-blurb {
   margin-bottom: 60px; }
@@ -198,6 +222,8 @@ div.well {
   letter-spacing: 0.1em;
   font-size: 22px;
   margin: 30px 0px 30px 0px; }
+  #email a {
+    font-weight: normal; }
 
 .social {
   height: 66px;
@@ -224,8 +250,12 @@ footer {
       color: #2e9dc9; }
 
 .bnvb {
-  margin: 20px 0px 10px 0px; }
+  margin-top: 10px;
+  text-align: left; }
 
+@media only screen and (min-width: 480px) {
+  .bnvb {
+    text-align: center; } }
 #copyright {
   font-size: 10px;
   color: white;
