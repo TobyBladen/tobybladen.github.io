@@ -23,6 +23,16 @@ p {
   padding: 0;
   font-size: 14px; }
 
+h1 {
+  text-transform: uppercase;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-align: center; }
+
 td {
   font-size: 18px; }
 
@@ -32,18 +42,19 @@ blockquote {
   padding: 0px; }
 
 h2 {
-  margin: 52px 0px 28px 0px;
+  margin: 80px 0px 28px 0px;
   font-weight: 700;
   color: #062659;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-align: center; }
 
 h3 {
   color: #062659; }
 
 h4 {
+  margin: 60px 0px 30px 0px;
   font-size: 22px;
-  margin-left: 20px;
-  opacity: 0.7; }
+  text-align: center; }
 
 .embed-responsive {
   margin: 10px 0px 10px 0px; }
@@ -52,6 +63,9 @@ ul {
   padding: 0px;
   margin: 0px;
   list-style-type: none; }
+
+li {
+  text-align: center; }
 
 .fade1 {
   animation-name: fade1;
@@ -83,6 +97,11 @@ ul {
   background-size: cover;
   background-repeat: no-repeat; }
 
+#zh-img {
+  background: url(../img/china.jpg) center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 #jp-dot {
   display: none; }
 
@@ -93,6 +112,9 @@ ul {
   #jp-dot {
     display: inline; } }
 .kr-text {
+  word-break: keep-all; }
+
+.zh-category {
   word-break: keep-all; }
 
 header {
@@ -135,19 +157,11 @@ a.lang {
   margin: auto;
   padding: 7px; }
 
-h1 {
-  text-transform: uppercase;
-  color: white;
-  margin: 0px;
-  padding: 0px;
-  font-size: 48px;
-  font-weight: 700;
-  letter-spacing: 0.1em; }
-
 #multi {
   color: white;
   font-size: 22px;
-  padding: 7px; }
+  padding: 7px;
+  text-align: center; }
 
 #main-nav a {
   color: white;
@@ -172,7 +186,8 @@ h1 {
     border-bottom: none;
     border-right: 2px solid #331e4f; } }
 .blurb {
-  font-size: 18px; }
+  font-size: 18px;
+  text-align: center; }
 
 .category {
   color: #062659;
@@ -196,10 +211,10 @@ ul.skill-list li {
   font-size: 16px;
   background: linear-gradient(to top right, #d8dbff, white);
   background-color: #d8dbff;
-  text-align: center;
   padding: 10px;
   margin-top: 10px;
-  font-weight: bold; }
+  font-weight: bold;
+  border-radius: 2px; }
 
 #see-more-button {
   font-weight: normal;
@@ -214,8 +229,16 @@ ul.skill-list li {
   #see-more-button:focus {
     background-color: #331e4f; }
 
-.project-blurb {
-  margin-bottom: 60px; }
+.project {
+  padding: 20px 20px 60px 20px;
+  background: linear-gradient(#d8dbff, white);
+  background-color: #d8dbff;
+  margin-bottom: 40px;
+  border: 1px dotted #062659;
+  border-radius: 4px; }
+
+.thumbnail:hover {
+  opacity: 0.5; }
 
 #email {
   text-align: center;
@@ -249,12 +272,12 @@ footer {
     footer a:focus {
       color: #2e9dc9; }
 
-.bnvb {
+.bottom-nvb {
   margin-top: 10px;
   text-align: left; }
 
 @media only screen and (min-width: 480px) {
-  .bnvb {
+  .bottom-nvb {
     text-align: center; } }
 #copyright {
   font-size: 10px;
